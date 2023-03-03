@@ -3,12 +3,11 @@ import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "David",
-  lastName: "Parker",
-  bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
-  phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  firstName: "Naufal",
+  lastName: "Halim",
+  address: "Pogung Baru, DIY",
+  phone: "087785165430",
+  email: "naufalhalim46@gmail.com",
   serviceLists: [
     "Website Development",
     "Digital Experience",
