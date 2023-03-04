@@ -4,6 +4,7 @@ import Home from "../src/components/Home";
 import News from "../src/components/News";
 import Portfolio from "../src/components/Portfolio";
 import Layout from "../src/layouts/Layout";
+import Image from "next/image";
 
 const Index = () => {
   return (

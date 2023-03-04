@@ -1,6 +1,7 @@
 import { Fragment, useState } from "react";
 import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
+import Image from "next/image";
 
 const aboutData = {
   firstName: "Naufal",
@@ -63,7 +64,7 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
+                <Image src="img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="img/about/1.jpg" />
               </div>
             </div>
