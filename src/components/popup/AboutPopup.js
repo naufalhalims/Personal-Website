@@ -17,7 +17,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <Image src="img/thumbs/1-1.jpg" alt="Image mine" />
+                <img src="img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="img/about/1.jpg" />
               </div>
               <div className="short">
