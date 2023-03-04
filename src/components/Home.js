@@ -5,7 +5,7 @@ import AnimatedText from "./AnimatedText";
 const homeData = {
   firstName: "Naufal",
   lastName: "Halim",
-  skills: ["Content Creator", "Python Engineer", "Data Analyst"],
+  skills: ["Content Creator", "Software Engineer", "Data Analyst"],
 };
 
 const Home = ({ activeWithBtn }) => {
@@ -25,7 +25,7 @@ const Home = ({ activeWithBtn }) => {
           </h3>
           <div className="edrea_tm_button transition_link">
             <a href="#contact" onClick={() => changeNav("contact")}>
-              Hubungi
+              Connect
             </a>
           </div>
         </div>

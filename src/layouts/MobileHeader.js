@@ -18,7 +18,7 @@ const MobileHeader = () => {
         <div className="topbar_inner">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/logo.png" alt="" />
+              <img src="img/logo/logo.png" layout="fill"  alt="" />
             </a>
           </div>
           <div className="trigger">
