@@ -68,7 +68,7 @@ const Contact = () => {
                 <li>
                   <div className="list_inner">
                   <img src="img/logo/email.png" width={40} height={40} alt=""/>  
-                    <a href="mailto:naufalhalim46e@gmail.com">naufalhalim46@gmail.com</a>
+                    <a href="mailto:naufalhalim46@gmail.com">naufalhalim46@gmail.com</a>
                   </div>
                 </li>
                 <li>

@@ -16,11 +16,11 @@ const Index = () => {
       {/* /ABOUT */}
       {/* PORTFOLIO */}
         {/* Kita sembunyiin dulu menu portofolio */}
-        {/* <Portfolio /> */}
+      <Portfolio />
       {/* /PORTFOLIO */}
       {/* NEWS */}
         {/* Kita sembunyiin dulu menu news */}
-        {/* <News /> */}
+      <News />
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />
