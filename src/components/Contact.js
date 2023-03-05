@@ -55,36 +55,32 @@ const Contact = () => {
               <ul>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-location" />
-                    <span>
-                      <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
-                      </a>
-                    </span>
+                  <img src="img/logo/instagram.png" width={40} height={40} alt=""/>
+                    <a href="https://www.instagram.com/naufalhal">Instagram : @naufalhal</a>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-phone" />
-                    <span>
-                      <a href="#">+77 022 155 02 02</a>
-                    </span>
+                  <img src="img/logo/tiktok.png" width={40} height={40} alt=""/>
+                    <a href="https://www.tiktok.com/@naufalhal">Tiktok : @naufalhal</a>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-mail-1" />
-                    <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
-                    </span>
+                  <img src="img/logo/email.png" width={40} height={40} alt=""/>  
+                    <a href="mailto:naufalhalim46e@gmail.com">naufalhalim46@gmail.com</a>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-facebook-rect" />
-                    <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
-                    </span>
+                  <img src="img/logo/wa.png" width={40} height={40} alt=""/>  
+                    <a href="#">Whatsapp : (+62) 877-8516-5430</a>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                  <img src="img/logo/podcast.png" width={40} height={40} alt=""/>
+                    <a href="https://spotifyanchor-web.app.link/e/NxlQrvQ1Txb">Podcast : Query & Answer</a>
                   </div>
                 </li>
               </ul>

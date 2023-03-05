@@ -18,7 +18,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
             <div className="author">
               <div className="avatar_image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/1.png" />
               </div>
               <div className="short">
                 <h3 className="name">
@@ -42,17 +42,21 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-calendar" />
-                    <span>{aboutData.bithday}</span>
+                    <i className="icon-database" />
+                    <span>{aboutData.major}</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-building" />
+                    <span>{aboutData.university}</span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
                     <i className="icon-location" />
                     <span>
-                      <a href="#" className="href_location">
                         {aboutData.address}
-                      </a>
                     </span>
                   </div>
                 </li>
@@ -60,11 +64,11 @@ const AboutPopup = ({ open, close, aboutData }) => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">{aboutData.phn}</a>
+                      {aboutData.phn}
                     </span>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
@@ -73,7 +77,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       </a>
                     </span>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="edrea_tm_button full">

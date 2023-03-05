@@ -3,12 +3,13 @@ import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "David",
-  lastName: "Parker",
-  bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
-  phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  firstName: "Naufal",
+  lastName: "Halim",
+  major: "Information Engineering",
+  university: "Gadjah Mada University",
+  address: "Pogung Baru, DIY",
+  phn: "+62 851 5733 7430",
+  email: "naufalhalim46",
   serviceLists: [
     "Website Development",
     "Digital Experience",
@@ -65,7 +66,7 @@ const About = () => {
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/1.png" />
               </div>
             </div>
             <div className="right">
@@ -80,7 +81,7 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
+                  My name is <span>Naufal Halim.</span> I am a graphic designer,
                   and {`I'm`} very passionate and dedicated to my work. With 20
                   years experience as a professional a graphic designer, I have
                   acquired the skills and knowledge.
