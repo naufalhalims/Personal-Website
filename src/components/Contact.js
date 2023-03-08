@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import emailjs from "emailjs-com";
 import { useState } from "react";
 
@@ -65,6 +66,7 @@ const Contact = () => {
                     <a href="https://www.tiktok.com/@naufalhal">Tiktok : @naufalhal</a>
                   </div>
                 </li>
+
                 <li>
                   <div className="list_inner">
                   <img src="img/logo/email.png" width={40} height={40} alt=""/>  
@@ -74,7 +76,7 @@ const Contact = () => {
                 <li>
                   <div className="list_inner">
                   <img src="img/logo/wa.png" width={40} height={40} alt=""/>  
-                    <a href="#">Whatsapp : (+62) 877-8516-5430</a>
+                    <a href="https://wa.me/6287785165430">Whatsapp : (+62) 877-8516-5430</a>
                   </div>
                 </li>
                 <li>
