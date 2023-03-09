@@ -53,7 +53,7 @@ const Portfolio = () => {
                       </div>
                       <a
                         className="edrea_tm_full_link popup-youtube"
-                        href="//www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                        href="https://www.instagram.com/reel/CiNNXurpyt7/?utm_source=ig_embed&amp;utm_campaign=loading"
                       />
                     </div>
                   </SwiperSlide>

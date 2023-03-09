@@ -34,7 +34,7 @@ const Header = () => {
             </li>
             <li className={activeNav("news")}>
               <a href="#news" onClick={() => changeNav("news")}>
-                News
+                Blog
               </a>
             </li>
             <li className={activeNav("contact")}>

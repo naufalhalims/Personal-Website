@@ -81,7 +81,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/1.jpg" download>
+              <a href="https://drive.google.com/file/d/1dtYsl9qwe_bXNf7qM4M3B6mYJV14Shhi/view?usp=share_link" download>
                 Download CV
               </a>
             </div>
@@ -99,10 +99,10 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and {`I'm`} very passionate and dedicated to
-                  my work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  Hello everybody! My name is <span>Naufal Halim.</span> I am a
+                  software engineer and content creator. I am very passionate and dedicated to
+                  my work. With 4 years of experience as an Information Engineering student in the University of Gadjah Mada, 
+                  and 2 years of experience as a content creator. I'm confident about my skills and knowledges.
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Quality <span className="coloring">Services</span>
+                    Programming <span className="coloring">Skills</span>
                   </span>
                 </h3>
               </div>
@@ -126,7 +126,27 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </ul>
               </div>
             </div>
-            <div className="prog_skill">
+            <div className="service">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Creative <span className="coloring">Skills</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData.creativeLists &&
+                    aboutData.creativeLists.map((creative, i) => (
+                      <li key={i}>
+                        <i className="icon-right-dir" />
+                        {creative}
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </div>
+            {/* <div className="prog_skill">
               <div className="about_title">
                 <h3>
                   <span>
@@ -163,7 +183,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     </div>
                   ))}
               </div>
-            </div>
+            </div> */}
             <div className="lang_skill">
               <div className="about_title">
                 <h3>
@@ -231,7 +251,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Working <span className="coloring">Timeline</span>
+                    Internship <span className="coloring">Timeline</span>
                   </span>
                 </h3>
               </div>
@@ -239,15 +259,15 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 <ul>
                   {aboutData &&
                     aboutData.working &&
-                    aboutData.working.map((work, i) => (
+                    aboutData.working.map((working, i) => (
                       <li key={i}>
                         <div className="list_inner">
                           <div className="time">
-                            <span>{work.year}</span>
+                            <span>{working.year}</span>
                           </div>
                           <div className="place">
-                            <h3>{work.company}</h3>
-                            <span>{work.deg}</span>
+                            <h3>{working.company}</h3>
+                            <span>{working.deg}</span>
                           </div>
                         </div>
                       </li>
@@ -255,7 +275,83 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </ul>
               </div>
             </div>
-            <div className="partners">
+            <div className="timeline">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Organisational Experience <span className="coloring">Timeline</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData &&
+                    aboutData.organisation &&
+                    aboutData.organisation.map((org, i) => (
+                      <li key={i}>
+                        <div className="list_inner">
+                          <div className="time">
+                            <span>{org.year}</span>
+                          </div>
+                          <div className="place">
+                            <h3>{org.project}</h3>
+                            <span>{org.deg}</span>
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </div>
+            <div className="timeline">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Speaker <span className="coloring">Timeline</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData &&
+                    aboutData.speaker &&
+                    aboutData.speaker.map((speaker, i) => (
+                      <li key={i}>
+                        <div className="list_inner">
+                          <div className="time">
+                            <span>{speaker.year}</span>
+                          </div>
+                          <div className="place">
+                            <h3>{speaker.location}</h3>
+                            <span>{speaker.topic}</span>
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </div>
+            <div className="service">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Topics <span className="coloring">Interest</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData.interestLists &&
+                    aboutData.interestLists.map((interest, i) => (
+                      <li key={i}>
+                        <i className="icon-right-dir" />
+                        {interest}
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </div>
+            {/* <div className="partners">
               <div className="about_title">
                 <h3>
                   <span>
@@ -360,7 +456,12 @@ const AboutPopup = ({ open, close, aboutData }) => {
                   </SwiperSlide>
                 </Swiper>
               </div>
-            </div>
+            </div> */}
+            <div className="edrea_tm_button full">
+              <a href="https://drive.google.com/drive/folders/1pOH1Fpxj4mptHJJGVRuxHsPGeYxZ4l88?usp=share_link" download>
+              Certificate
+              </a>
+            </div>            
           </div>
         </div>
       </div>

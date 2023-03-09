@@ -11,37 +11,66 @@ const aboutData = {
   phn: "+62 851 5733 7430",
   email: "naufalhalim46",
   serviceLists: [
-    "Website Development",
-    "Digital Experience",
-    "Content Marketing",
-    "Social Media Design",
-    "Shared Web Hosting",
+    "Python for Data Analytics and Engineering",
+    "Data Visualization for Storytelling",
+    "Python for Machine Learning Model",
+    "Python for Object Detection Model",
+    "React Js and Next Js for Website Development",
+    "Wordpress for Content Management System",
+  ],
+  creativeLists: [
+    "Photography",
+    "Creative Content Writing",
+    "Content Scripting for Video",
+    "Python for Object Detection Model",
+    "Davinci Resolve and Capcut for Video Editing",
+    "Figma and Canva for Graphic Designing",
+  ],
+  interestLists: [
+    "Education",
+    "Self Development",
+    "Bussiness and Technology",
+    "Data Analytics and Visualizations",
+    "Non-fiction Books and writings",
   ],
   skills: {
     programming: [
-      { name: "WordPress", value: "95" },
+      { name: "Python", value: "90" },
       { name: "JavaScript", value: "80" },
       { name: "Angular", value: "90" },
     ],
     language: [
-      { name: "English", value: "95" },
-      { name: "Russian", value: "80" },
-      { name: "Arabic", value: "90" },
+      { name: "Indonesian", value: "100" },
+      { name: "English", value: "85" },
+      { name: "Javanesse", value: "80" },
     ],
   },
   education: [
-    { year: "2014 - 2016", unv: "Oxford Univercity", degree: "Master Degree" },
-    { year: "2010 - 2014", unv: "Texas Univercity", degree: "Bachelor Degree" },
-    { year: "2008 - 2010", unv: "Simone College", degree: "Associate Degree" },
+    { year: "2019 - Present", unv: "Gadjah Mada University", degree: "Information Engineering" },
+    { year: "2016 - 2019", unv: "SMAN 2 Kota Bekasi", degree: "Science Major" },
+  ],
+  organisation: [
+    { year: "2022", project: "Field Study and Community Service", deg: "Web Developer and Photographer in Karimunjawa Island"},
+    { year: "2021 - 2022", project: "Badan Eksekutif Mahasiswa Fakultas Teknik UGM", deg: "Head of Digital Data Analytics and Research Bureau"},
+    { year: "2020 - 2022", project: "Night Login Community", deg: "Member of Night Login Data Science and Data Analytic Community (NDDC"},
+    { year: "2021 - 2022", project: "Keluarga Mahasiswa Teknik Elektro dan Teknologi Informasi UGM ", deg: "Organizational Development Bureau and responsible for Enterpreuneurship Divison"},
+    { year: "2020 - 2021", project: "Keluarga Mahasiswa Teknik Elektro dan Teknologi Informasi UGM ", deg: "Organizational Development Bureau and responsible for Public Relations Divison"},
+    { year: "2019 - 2020", project: "Badan Eksekutif Mahasiswa Fakultas Teknik UGM", deg: "Ministry Popular and Applicative Research focused on data analytics and issue research"},
+  ],
+  speaker: [
+    { year: "2023", location: "Night Login UGM", topic: "Get to know more about Information Technology"},
+    { year: "2022", location: "Politeknik Statistika STIS", topic: "Integral Sesi 3 : From Statistics, Data Science to Self Development"},
+    { year: "2022", location: "SISIK PTN UPI", topic: "Talked about preparation of university entrance exam selection"},
+    { year: "2022", location: "SMAN 8 Kab. Tangerang ", topic: "Campus Goes to School includes theme preparation university entrance exam selection"},
+    { year: "2021", location: "Pahamify Campus Fair", topic: "Introduced more about Information Engineering, Information System, Computer Science, and other major related"},
+    { year: "2021", location: "Bukasuara", topic: "Perspective Festival on International Youth Day about Self Development for College Students"},
+    { year: "2021", location: "Teman Kita", topic: "Talked about preparation of university entrance exam selection"}, 
+    { year: "2021", location: "Media Selaras", topic: "Talked about preparation of university entrance exam selection"}, 
+    { year: "2021", location: "Project Talks", topic: "Talked about self development, 'Know Yourself to Win All Battle' for college students"}, 
+    { year: "2021", location: "Community of Belajar Bareng", topic: "Tutor of Basic Programming Class at Community"}, 
   ],
   working: [
-    {
-      year: "2018 - running",
-      company: "Envato Elements",
-      deg: "Exclusive Author",
-    },
-    { year: "2015 - 2018", company: "Avo Corporation", deg: "Content Manager" },
-    { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+    { year: "2023", company: "JALA Tech", deg: "Python Engineer & Data Analyst"},
   ],
   partnersLogos: [
     "img/partners/1.png",
@@ -79,17 +108,17 @@ const About = () => {
                   <AnimatedText />
                 </h3>
               </div>
-              <div className="text">
+              <div className="text"> 
                 <p>
-                  My name is <span>Naufal Halim.</span> I am a graphic designer,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  My name is <span>Naufal Halim.</span> I am an undergraduate student in the <span>Information Engineering</span> Program 
+                  at <span>Gadjah Mada University</span> specializing in <span>data engineering</span>.
+                  I am interested in <span>web development, data analysis, python, photography, and content creation. </span> 
+                  I am enthusiastic to take the opportunity for learning more about things in my field.
                 </p>
               </div>
               <div className="edrea_tm_button">
                 <a href="#" onClick={() => setPopup(true)}>
-                  Learn More
+                  Details
                 </a>
               </div>
             </div>
