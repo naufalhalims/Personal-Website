@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Fragment, useState } from "react";
 import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
@@ -112,7 +113,7 @@ const About = () => {
                 <p>
                   My name is <span>Naufal Halim.</span> I am an undergraduate student in the <span>Information Engineering</span> Program 
                   at <span>Gadjah Mada University</span> specializing in <span>data engineering</span>.
-                  I am interested in <span>web development, data analysis, python, photography, and content creation. </span> 
+                  I am interested in web development, data analysis, python, photography, and content creation.
                   I am enthusiastic to take the opportunity for learning more about things in my field.
                 </p>
               </div>

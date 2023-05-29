@@ -73,12 +73,12 @@ const Contact = () => {
                     <a href="mailto:naufalhalim46@gmail.com">naufalhalim46@gmail.com</a>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="list_inner">
                   <img src="img/logo/wa.png" width={40} height={40} alt=""/>  
                     <a href="https://wa.me/6287785165430">Whatsapp : (+62) 877-8516-5430</a>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="list_inner">
                   <img src="img/logo/podcast.png" width={40} height={40} alt=""/>

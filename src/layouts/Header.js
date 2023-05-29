@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useContext } from "react";
 import { context } from "../context/context";
 
@@ -12,7 +13,7 @@ const Header = () => {
       <div className="header_inner">
         <div className="logo">
           <a href="#" onClick={() => changeNav("home")}>
-            <img src="img/logo/logo.png" layout="fill" alt="" />
+            <img src="img/logo/logo.png" alt="" />
           </a>
         </div>
         <div className="menu">

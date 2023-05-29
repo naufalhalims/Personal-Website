@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Modal from "./Modal";
 
 const PortfolioModal = ({ close, open }) => {

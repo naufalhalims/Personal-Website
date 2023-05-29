@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Fragment, useContext, useState } from "react";
 import { context } from "../context/context";
 
@@ -18,7 +19,7 @@ const MobileHeader = () => {
         <div className="topbar_inner">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/logo.png" layout="fill"  alt="" />
+              <img src="img/logo/logo.png"  alt="" />
             </a>
           </div>
           <div className="trigger">

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useContext, useEffect, useState } from "react";
 import { context } from "../context/context";
 
@@ -24,7 +25,7 @@ const Settings = () => {
   useEffect(() => {
     getColor("#eb4a4c");
     getMagicCursor("show");
-  }, []);
+  }, [getColor, getMagicCursor]);
   return (
     <div className={`edrea_tm_settings ${toggle ? "opened" : ""}`}>
       <div className="icon">
